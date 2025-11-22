@@ -1,7 +1,7 @@
 const UploadFile = async (fileData) => {
   try {
     const response = await fetch(
-      "https://file-sharing-akfv.vercel.app/upload",
+      "https://file-sharing-cynz.onrender.com/upload",
       {
         method: "POST",
         body: fileData,
@@ -16,7 +16,7 @@ const UploadFile = async (fileData) => {
 const DownloadFile = async (fileId) => {
   try {
     const response = await fetch(
-      `https://file-sharing-akfv.vercel.app/files/${fileId}`,
+      `https://file-sharing-cynz.onrender.com/files/${fileId}`,
       {
         method: "GET",
       }
